@@ -31,16 +31,22 @@ main : the file is to realize the model of PyTorch to used in C++ Program
     opencv_world400d.lib;torch_cpu.lib;torch.lib;c10.lib
      
  2. Test the environment
-
-    #include <torch/torch.h>
-    #include <iostream>
-     int main()
-     {
+   
+  1)load head file:
+     
+       #include <torch/torch.h>
+       #include <iostream>
+       
+       
+  2)Test context:
+   
+    int main()
+    {
          
          torch::Tensor tensor = torch::rand({2, 3});
          std::cout << tensor << std::endl;        
          return 0
-     }
+    }
    
  
       

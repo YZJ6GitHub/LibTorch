@@ -24,7 +24,17 @@ main : the file is to realize the model of PyTorch to used in C++ Program
 
     -------------link:----------------------
 
-    opencv_world400d.lib;torch_cpu.lib;torch.lib;c10.lib
+    opencv_world400d.lib
+    torch.lib
+    c10.lib
+    c10_cuda.lib
+    caffe2_module_test_dynamic.lib
+    caffe2_nvrtc.lib
+    clog.lib
+    cpuinfo.lib
+    libprotobufd.lib
+    libprotobuf-lited.lib
+    libprotocd.lib
      
  2. Test the environment
    

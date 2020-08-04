@@ -1,6 +1,16 @@
 # PyTorchCPP
 C++ libPyTorch the training result of PyTorch is  used by C++ 
 
+
+train_minist  :  In order to train model on minist datasets, the type of mode is .pth.
+
+test_minist :  Input n new image to predict what type is belongs to.
+
+transform_model : In order to make use of the training model ,must transoform the type of .pth  to pt. the file can achieve it.
+
+
+
+
 1. Create new file by vs2019 and set up environment 
    
   -------------include:----------------------
@@ -19,5 +29,10 @@ C++ libPyTorch the training result of PyTorch is  used by C++
 
     opencv_world400d.lib;torch_cpu.lib;torch.lib;c10.lib
      
+ 2. Test the environment
+ 
+ 
+    
+ 
      
 

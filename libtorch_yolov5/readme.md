@@ -14,6 +14,7 @@
 
 
    include ：
+   
    D:\opencv4.0\build\include
  
    D:\opencv4.0\build\include\opencv2
@@ -25,6 +26,7 @@
    
    
    lib:
+   
    D:\libtorch\debug\lib
    
    D:\opencv4.0\build\x64\vc15\lib
